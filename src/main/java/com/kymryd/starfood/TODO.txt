@@ -1,0 +1,5 @@
+// TODO passer les collections manyToMany en set pour améliorations des performances :
+// - si List, Hibernate delete toutes les lignes puis recrée celles qui ne devaient pas être supprimées
+// - si Set, Hibernate supprime les lignes à supprimer
+
+
